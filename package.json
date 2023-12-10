@@ -4,12 +4,15 @@
   "description": "A user management service",
   "main": "index.js",
   "scripts": {
-    "dev": "node src/server.js"
+    "dev": "node src/server.js",
+    "format:check": "npx prettier . --check",
+    "format:fix": "npx prettier . --write"
   },
   "author": "Mirza Firoz Uddin",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.4",
+    "prettier": "3.1.1",
     "typescript": "^5.3.3"
   }
 }
