@@ -7,5 +7,9 @@
     "dev": "node src/server.js"
   },
   "author": "Mirza Firoz Uddin",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "typescript": "^5.3.3"
+  }
 }
