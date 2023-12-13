@@ -5,13 +5,19 @@
   "main": "index.js",
   "scripts": {
     "dev": "node src/server.js",
-    "format:check": "npx prettier . --check",
-    "format:fix": "npx prettier . --write"
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write",
+    "eslint": "eslint .",
+    "eslint:fix": "eslint . --fix"
   },
   "author": "Mirza Firoz Uddin",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "eslint": "^8.55.0",
+    "eslint-config-prettier": "^9.1.0",
     "prettier": "3.1.1",
     "typescript": "^5.3.3"
   }

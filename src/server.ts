@@ -1,6 +1,5 @@
-function login(username: string): boolean {
-  console.log("Username: ", username);
-  return true;
+function login(username: string): string {
+  return username;
 }
 
 login("firoz");
