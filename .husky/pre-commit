@@ -1,5 +1,7 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run eslint:fix
-npm run format:fix
+# npm run eslint:fix
+# npm run format:fix
+
+npx lint-staged
