@@ -29,5 +29,8 @@
             "npm run eslint:fix",
             "npm run format:fix"
         ]
+    },
+    "dependencies": {
+        "dotenv": "^16.3.1"
     }
 }
